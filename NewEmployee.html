@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New employee</title>
+    </head>
+
+    <body>
+        <p>
+            <h1>
+                <b>
+                    <u>
+                        <i>
+                            Welcome
+                        </i>
+                    </u>
+                </b>
+            </h1>
+        </p>
+
+        <img src="./Employee.png" width="400" height="300">
+
+        <p>
+            <h3>
+                <strong>
+                    Fill in the blank requirements:
+                </strong>
+            </h3>
+        </p>
+
+        <form action="./ReceiveInformation.html" method="get">
+            <div>
+                <label>
+                    Firstname: 
+                    <input type="text" name="Firstname" placeholder="Firstname">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Lastname: 
+                    <input type="text" name="Lastname" placeholder="Lastname">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Date of birth:
+                    <input type="date" name="birthDate" id="birthDate">
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Address: 
+                    <input type="text" name="Address" placeholder="Address">
+                </label>
+            </div>
+
+            <div>
+                <label for="city">
+                    City: 
+                    <select name="city" id="city">
+                        <option value="Empty"></option>
+                        <option value="Jaljulia">Jaljulia</option>
+                        <option value="Tel-Aviv">Tel-Aviv</option>
+                        <option value="Kefar-Sava">Kefar-Sava</option>
+                        <option value="Lod">Lod</option>
+                        <option value="Nahshonim">Nahshonim</option>
+                    </select>
+                </label>
+            </div>
+
+            <div>
+                <label for="male">
+                    <div>
+                        Gender:
+                    </div>
+                    Male:
+                    <input type="radio" name="gender" id="male" value="male">
+                </label>
+            </div>
+
+            <div>
+                <label for="female">
+                    Female: 
+                    <input type="radio" name="gender" id="female" value="female">
+                </label>
+            </div>
+
+            <div>
+                <label for="agree">
+                    Kosher food: 
+                    <input type="checkbox" name="agree" id="agree">
+                </label>
+            </div>
+
+            <button type="submit">Send</button>
+        </form>
+    </body>
+</html>
